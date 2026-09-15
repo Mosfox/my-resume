@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>ผลงาน | จตุชัย เดชสูงเนิน</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo">จตุชัย เดชสูงเนิน</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="เปิดปิดเมนู" aria-expanded="false">☰</button>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="experience.html">ประสบการณ์</a></li>
+        <li><a href="projects.html" class="active">ผลงาน</a></li>
+        <li><a href="contact.html">ติดต่อ</a></li>
+      </ul>s
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <h1>ผลงาน</h1>
+      <p class="tagline">โครงงานที่เคยมีส่วนร่วมในการพัฒนา</p>
+    </section>
+
+    <section>
+      <h2>โครงงานที่ผ่านมา</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="images/P1.jpg" alt="วงจรแปลงไฟจาก AC เป็น DC">
+          <div class="project-body">
+            <h3>วงจรแปลงไฟจาก AC เป็น DC</h3>
+            <p>
+              ออกแบบและสร้างวงจรแปลงไฟจากกระแสสลับเป็นกระแสตรง
+              ใช้ในโครงการวิชาโครงงาน
+            </p>
+            <ul class="tech-list">
+              <li>วงจรไฟฟ้า</li>
+              <li>การวิเคราะห์วงจร</li>
+            </ul>
+            <div class="project-links">
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/P2.jpg" alt="ภาพหน้าจอระบบเซ็นเซอร์รดน้ำต้นไม้">
+          <div class="project-body">
+            <h3>ระบบเซ็นเซอร์รดน้ำต้นไม้</h3>
+            <p>
+              ระบบควบคุมการรดน้ำอัตโนมัติโดยใช้เซ็นเซอร์ตรวจจับความชื้นของดิน
+              พร้อมแสดงสถานะการทำงานบนหน้าจอ
+            </p>
+            <ul class="tech-list">
+                <li>Arduino</li>
+                <li>การควบคุมอัตโนมัติ</li>
+            </ul>
+            <div class="project-links">
+              
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/P3.jpg" alt="ภาพหน้าจอระบบเซ็นเซอร์การสั่นสะเทือน">
+          <div class="project-body">
+            <h3>ระบบเซ็นเซอร์การสั่นสะเทือน</h3>
+            <p>
+                ระบบตรวจจับการสั่นสะเทือนของเครื่องจักรและส่งข้อมูลไปยังโมดูล
+                เพื่อวิเคราะห์และแจ้งเตือนเมื่อเกิดความผิดปกติ
+            </p>
+            <ul class="tech-list">
+                <li>Arduino</li>
+                <li>การประมวลผลสัญญาณ</li>
+            </ul>
+            <div class="project-links">
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2569 จตุชัย เดชสูงเนิน</p>
+    <p>สร้างด้วย HTML และ CSS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
